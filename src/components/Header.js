@@ -1,32 +1,32 @@
 import React from "react";
 import styled from "styled-components";
 
-function Header() {
+const Header = () => {
   return (
     <Nav>
       <Logo src="./images/logo.svg" />
       <Navmenu>
-        <a>
+        <a href="/">
           <img src="/images/home-icon.svg" alt="" />
           <span>HOME</span>
         </a>
-        <a>
+        <a href="/">
           <img src="/images/search-icon.svg" alt="" />
           <span>SEARCH</span>
         </a>
-        <a>
+        <a href="/">
           <img src="/images/watchlist-icon.svg" alt="" />
           <span>WATCHLIST</span>
         </a>
-        <a>
+        <a href="/">
           <img src="/images/original-icon.svg" alt="" />
           <span>ORIGINAL</span>
         </a>
-        <a>
+        <a href="/">
           <img src="/images/movie-icon.svg" alt="" />
           <span>MOVIE</span>
         </a>
-        <a>
+        <a href="/">
           <img src="/images/series-icon.svg" alt="" />
           <span>SERIES</span>
         </a>
@@ -44,6 +44,7 @@ const Nav = styled.nav`
   background-color: #090b13;
   align-items: center;
   padding: 0 36px;
+  overflow: hidden;
 `;
 
 const Logo = styled.img`
