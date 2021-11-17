@@ -6,27 +6,27 @@ const Header = () => {
     <Nav>
       <Logo src="./images/logo.svg" />
       <Navmenu>
-        <a href="/">
+        <a>
           <img src="/images/home-icon.svg" alt="" />
           <span>HOME</span>
         </a>
-        <a href="/">
+        <a>
           <img src="/images/search-icon.svg" alt="" />
           <span>SEARCH</span>
         </a>
-        <a href="/">
+        <a>
           <img src="/images/watchlist-icon.svg" alt="" />
           <span>WATCHLIST</span>
         </a>
-        <a href="/">
+        <a>
           <img src="/images/original-icon.svg" alt="" />
           <span>ORIGINAL</span>
         </a>
-        <a href="/">
+        <a>
           <img src="/images/movie-icon.svg" alt="" />
           <span>MOVIE</span>
         </a>
-        <a href="/">
+        <a>
           <img src="/images/series-icon.svg" alt="" />
           <span>SERIES</span>
         </a>
